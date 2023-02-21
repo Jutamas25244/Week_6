@@ -14,5 +14,11 @@ pipeline {
                 sh 'python3  Webhook/main.py'
             }
         }
+        stage('jutamas') {
+            steps {
+                
+                echo 'jutamas 63070022'
+            }
+        }
     }
 }
